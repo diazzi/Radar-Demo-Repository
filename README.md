@@ -1,4 +1,5 @@
-# РАДАР — Система мониторинга центробежного насоса ЦН-1000-180-3
+# РАДАР — Система предиктивного мониторинга технического состояния насосного оборудования на основе алгоритмов машинного обучения<img width="1319" height="42" alt="image" src="https://github.com/user-attachments/assets/c489d6be-7dc3-4b42-88ca-3da9cb0ab619" />
+
 
 [![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
