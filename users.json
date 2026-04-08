@@ -1,0 +1,20 @@
+{
+  "admin": {
+    "password": "$2b$12$IcC4.nhPayxctqfYQs.jH.Fk/pKont5ThzXRutyPBFfY76YAiBJd6",
+    "role": "admin",
+    "name": "Администратор",
+    "must_change_password": false
+  },
+  "engineer": {
+    "password": "$2b$12$fNeQmw8og3nuN3NK3k7xX.I9i37If1OfxRigHymqb9O9bbQkI8oKa",
+    "role": "engineer",
+    "name": "Инженер",
+    "must_change_password": true
+  },
+  "operator": {
+    "password": "$2b$12$6T9dHos0A2GzmatSKtV0cuvr89pClNZSf1hw05WDnnBPX4mv0EENG",
+    "role": "operator",
+    "name": "Оператор",
+    "must_change_password": true
+  }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+<title>403 — Доступ запрещён</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',system-ui,sans-serif;background:#060918;color:#f1f5f9;
+  display:flex;align-items:center;justify-content:center;min-height:100vh;text-align:center;
+  padding:24px}
+body::before{content:'';position:fixed;inset:0;
+  background:radial-gradient(ellipse at 50% 30%,rgba(239,68,68,.06),transparent 60%)}
+h1{font-size:120px;font-weight:900;line-height:1;
+  background:linear-gradient(135deg,#ef4444,#dc2626,#f97316);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  animation:glitch 3s ease-in-out infinite}
+@keyframes glitch{0%,100%{text-shadow:none}50%{text-shadow:2px 0 #ef4444,-2px 0 #3b82f6}}
+p{color:#64748b;font-size:16px;margin:20px 0 36px;font-weight:500}
+a{color:#3b82f6;text-decoration:none;font-weight:600;padding:14px 32px;
+  border:1px solid rgba(59,130,246,.3);border-radius:14px;transition:all .2s;font-size:14px}
+a:hover{background:rgba(59,130,246,.1);border-color:#3b82f6}
+</style>
+</head>
+<body>
+<div>
+  <h1>403</h1>
+  <p>Доступ запрещён. У вас нет прав для этой страницы.</p>
+  <a href="/">← На главную</a>
+</div>
+</body>
+</html>

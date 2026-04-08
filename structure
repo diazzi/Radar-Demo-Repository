@@ -1,0 +1,14 @@
+RADAR/
+├── config.py               [DATABASE_URL]
+├── requirements.txt        [psycopg2-binary]
+├── database.py             [абстракция БД: PostgreSQL/SQLite]
+├── push_manager.py         [использует database.py]
+├── web_dashboard.py        [database.py + обновлённые CSP]
+├── docker-compose.yml      [PostgreSQL сервис]
+├── Dockerfile              
+├── templates/
+│   ├── login.html          
+│   ├── index.html          
+│   └── 403.html            
+└── static/
+└── offline.html        
